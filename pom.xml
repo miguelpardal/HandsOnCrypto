@@ -26,11 +26,26 @@
 		are then loaded from the local repository. -->
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api 
-			jakarta.xml.bind:jakarta.xml.bind-api replaced javax.xml.bind:jaxb-api -->
+			jakarta.xml.bind:jakarta.xml.bind-api replaced javax.xml.bind:jaxb-api.
+			Provides printHexBinary method and others.-->
 		<dependency>
 			<groupId>jakarta.xml.bind</groupId>
 			<artifactId>jakarta.xml.bind-api</artifactId>
 			<version>3.0.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 
+			Provides StopWatch. -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.12.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-math3 
+			Provides SummaryStatistics. -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-math3</artifactId>
+			<version>3.6.1</version>
 		</dependency>
 	</dependencies>
 
