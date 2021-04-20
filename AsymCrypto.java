@@ -1,7 +1,7 @@
 // default package
 
 // provides helper methods to print byte[]
-import static javax.xml.bind.DatatypeConverter.printHexBinary;
+import static jakarta.xml.bind.DatatypeConverter.printHexBinary;
 
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;
